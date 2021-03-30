@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Dancing Script', cursive;
+}
+
+.row {
+    max-width: 1200px;
+    margin: auto;
+}
+
+#sumidh {
+    height: 100vh;
+    background: linear-gradient( rgba( 0, 0, 255, 0.30), rgba(155, 7, 7, 0.70)),  url( ../img/SumedhMudgalkar1.jpg ) no-repeat center top / cover ;
+    position: relative;
+    text-align: center;
+    color: #fff;
+    overflow: hidden;
+}
+
+.sumidh-text-box {
+position: absolute;
+top: 50%;
+left:50%;
+transform: translate(-50%, -50%);
+width: 100% ;
+}
+
+.hello {
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.sumidh-text-box h1 {
+    font-weight: 400;
+    font-size: 65px;
+    margin: 15px 0;
+}
+
+.icon ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+.icon ul li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.icon ul li a {
+    padding: 10px;
+    color: #fff;
+    font-size: 20px;
+    background-color: #000;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    line-height: 1;
+    text-align: center;
+    display: inline-block;
+}
+
+.ah-headline.clip .ah-words-wrapper::after {
+    background-color: #fff;
+}
+
+@media screen and ( max-width: 768px) {
+    #sumidh {
+        height: 100%;
+    }
+}
+
+@media screen and ( max-width: 375px) {
+    #sumidh {
+        height: 100vh;
+    }
+    .sumidh-text-box h1 {
+        font-size: 35px;
+    }
+    .hello {
+        font-size: 30px;
+    }
+}
+
+@media screen and ( max-width: 414px) {
+    #sumidh {
+        height: 100%;
+    }
+    .sumidh-text-box h1 {
+        font-size: 35px;
+    }
+    .hello {
+        font-size: 30px;
+    }
+}

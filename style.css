@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+
+
+html, body {
+    background-color: #BFC9CA;
+   
+}
+h1, h2, h3, h4, h5, h6, .btn {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+
+
+.b-c {
+    background-color: #000;
+}
+.header-bg {
+    background-color: #5dade2;
+}
+
+
+
+
+#Home {
+    height: 100vh;
+    background: linear-gradient(rgba( 0, 0, 255, 0.30), rgba(155, 7, 7, 0.70)), url(img/SumedhMudgalkar1.jpg) no-repeat center top / cover ;
+    position: relative;
+    text-align: center;
+    color: #fff;
+    overflow: hidden;
+    
+}
+
+.sumidh-text-box {
+    font-size:xx-large;
+    font-weight: bolder;
+    position: absolute;
+    top: 60%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    width: 100% ;
+    font-family: 'Dancing Script', cursive;
+    }
+    
+   
+    
+    .icon ul {
+        padding: 0;
+        margin: 0;
+        list-style-type: none;
+    }
+    
+    .icon ul li {
+        display: inline-block;
+        margin: 0 10px;
+    }
+    
+    .ah-headline.clip .ah-words-wrapper::after {
+        background-color: #fff;
+    }
+
+
+
+
+
+
+
+    /* ======================== */
+    /* About section */
+    /* ======================== */
+    #About-Me {
+        height: 90vh;
+    }
+    .resize{
+        width: 380px;
+        height: 380px;
+        border: 0;
+        border-radius: 50%;
+    }
+    .trxt-style {
+        font-family: 'Libre Baskerville', serif;
+        color: #34495e;
+    }
+
+
+
+
+
+    /* ======================== */
+    /* Carer section */
+    /* ======================== */
+    .gradient {
+        background: rgb(70,65,204);
+        background: linear-gradient(155deg, rgba(70,65,204,1) 4%, rgba(209,92,177,1) 98%);  
+    }
+
+    #Career h2, p, .change {
+        font-family: 'Courgette', cursive;
+        line-height: 1.5;
+        font-size: 1.3rem;
+        color: #D1C0A1;
+        font-style: italic;
+
+    }
+    #Career h2 {
+        font-size: 2rem;
+        color: #000;
+    }
+    
+    #Career .resizes{
+        width: 380px;
+        height: 480px;
+        border: 0;
+        border-radius: 5%;
+    }
+    
+    @media only screen and (max-width: 1199px) {
+        #Career h2 {
+            font-size: 1.6rem;
+        }
+        
+    @media only screen and (max-width: 991px) {
+        #Career .resizes{
+            width: 280px;
+            height: 380px;
+            border: 0;
+            border-radius: 5%;
+        }
+        #Career h2, p, .change {
+            line-height: 1.2;
+            font-size: 1.3rem;
+        }
+    }
+    @media only screen and (max-width: 767px) {
+        #Career {
+            margin-top: 13.5rem;
+        }
+        #Career h2, p, .change{
+            line-height: 1.5;
+            font-size: 1.3rem;
+        }
+        #Career .resizess {
+            width: 380px;
+            height: 480px;
+        }
+        .re {
+            margin-top: 3rem;
+        }
+        .ree {
+            margin-right: 4.5rem;
+        }
+    }
+    @media only screen and (max-width: 575px) {
+        #Career {
+            margin-top: 19rem;
+        }
+        #Career h2, p, .change {
+            line-height: 1.2;
+            font-size: 1.3rem;
+        }
+        .re1 {
+            margin-right: 4.4rem;
+        }
+        .re2 {
+            margin-left: 4.4rem;
+        }
+        .ree {
+            margin-right: 4.4rem;
+        }
+        #Career .resizes{
+            width: 380px;
+            height: 480px;
+            border: 0;
+            border-radius: 5%;
+        }
+    }
+    
+
+
+
+
+    @media only screen and (max-width: 1080px) {
+        #So-Then .last-resize {
+            float: left;
+        }
+    }
